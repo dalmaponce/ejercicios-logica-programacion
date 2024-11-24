@@ -1,0 +1,14 @@
+# Ignorar carpetas generadas por NetBeans en todos los subdirectorios
+**/nbproject/
+**/build/
+**/dist/
+*.class
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones específicas de otros IDEs
+.idea/
+*.iml
+*.bak
+*.swp
