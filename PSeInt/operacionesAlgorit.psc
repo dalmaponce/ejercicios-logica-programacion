@@ -2,13 +2,31 @@
 Funcion resultResta <- restaAlg ( num, num2 )
 	resultResta <- 0;
 	
-	Mientras num > num2 Hacer
+	Si num > num2 Entonces
 		
-		resultResta = resultResta + 1;
+		Mientras num > num2 Hacer
+			
+			resultResta = resultResta + 1;
+			
+			num = num - 1;
+			
+		FinMientras
 		
-		num = num - 1;
+	SiNo
+		Si num2 > num Entonces
+			
+			Mientras num2 > num Hacer
+				
+				resultResta = resultResta + 1;
+				
+				num2 = num2 - 1;
+				
+			FinMientras
+			
+			
+		FinSi
 		
-	FinMientras
+	FinSi
 	
 	
 Fin Funcion
@@ -40,6 +58,8 @@ Funcion resultDiv <- divAlg ( num, num2 )
 		
 	Hasta Que num < num2
 	
+	Escribir "El resto es: ", num;
+	
 Fin Funcion
 
 // Potencia sin operador ^
@@ -62,21 +82,36 @@ Algoritmo operacionesAlgorit
 	Escribir "Ingrese numeros a restar";
 	Leer num, num2;
 	
-	Escribir "El resultado de ", num " - ", num2, " es: ", restaAlg(num, num2);
+	resultadoR <- restaAlg(num, num2);
+	
+	Escribir "El resultado es: ", resultadoR;
 	
 ////	----------------- 
 	
 	Escribir "Ingrese numeros a multiplicar";
 	Leer num, num2;
 	
-	Escribir "El resultado de ", num " * ", num2, " es: ", multAlg(num, num2);
+	Si num == 0  o num2 == 0 Entonces
+		
+		Escribir "Todo numero multiplicado pór 0 es 0";
+		
+	SiNo
+		
+		resultadoM <- multAlg(num, num2);
+		
+		Escribir "El resultado de ", num " * ", num2, " es: ", resultadoM;
+		
+	FinSi
+	
 	
 ////	-----------------
 	
 	Escribir "Ingrese numeros a dividir";
 	Leer num, num2;
 	
-	Escribir "El resultado de ", num " / ", num2, " es: ", divAlg(num, num2);
+	resultadoD <- divAlg(num, num2);
+	
+	Escribir "El resultado de ", num " / ", num2, " es: ", resultadoD;
 	
 ////	----------------
 	
@@ -85,6 +120,8 @@ Algoritmo operacionesAlgorit
 	Escribir "Potencia";
 	Leer num2;
 	
-	Escribir "El resultado de ", num " ^ ", num2, " es: ", potenAlg(num, num2);
+	resultadoP <- potenAlg(num, num2);
+	
+	Escribir "El resultado de ", num " ^ ", num2, " es: ", resultadoP;
 	
 FinAlgoritmo
