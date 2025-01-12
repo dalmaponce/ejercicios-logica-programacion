@@ -5,7 +5,7 @@
 Este repositorio tiene como objetivo:  
 1. Practicar y mejorar mis habilidades en lógica de programación.  
 2. Compartir soluciones y fomentar el aprendizaje colaborativo.  
-3. Servir como portafolio de mi progreso en programación.  
+3. Servir como precedente de mi progreso en programación.  
 
 
 ## 🚀 Lenguajes Utilizados  
