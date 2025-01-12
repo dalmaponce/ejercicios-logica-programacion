@@ -11,9 +11,11 @@ Este repositorio tiene como objetivo:
 ## 🚀 Lenguajes Utilizados  
 Actualmente, las soluciones están escritas en:  
 
-**Pseudocódigo:** <img src="https://niixer.com/wp-content/uploads/2024/04/cropped-timthumsssb1.webp" alt="Pseint" width="110" heith="100">
+**Pseudocódigo:** 
+<img src="https://niixer.com/wp-content/uploads/2024/04/cropped-timthumsssb1.webp" alt="Pseint" width="110" heith="100">
 
-**JAVA:**  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zZKx4f0YmjvOaUf3ZFInOdCBFBEHcR7pQg&s" alt="Pseint" width="50" heith="80">
+**JAVA:**  verson 8, 11
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zZKx4f0YmjvOaUf3ZFInOdCBFBEHcR7pQg&s" alt="Pseint" width="50" heith="80">
 
 
 
