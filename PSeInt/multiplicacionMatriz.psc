@@ -24,7 +24,7 @@ Funcion   multiplicaMatrices ( matrizA Por Referencia, matrizB Por Referencia )
 		
 	FinPara
 	
-	Escribir "El resultado de la multicacion de las matrices ingresadas es: ";
+	Escribir "El resultado de la multiplicacion de las matrices ingresadas es: ";
 	mostrarMatriz(matrizResultante);
 	
 Fin Funcion
